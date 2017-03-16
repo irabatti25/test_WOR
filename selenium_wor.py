@@ -38,5 +38,4 @@ about_w=driver.find_element_by_xpath("//a[text()='About']").click()
 time.sleep(2)
 logo_1=driver.find_element_by_xpath("//img[@src='/static/img/wor_logo.png']").click()
 time.sleep(3)
-
 driver.close()
